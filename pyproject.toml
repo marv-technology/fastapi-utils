@@ -40,8 +40,8 @@ classifiers = [
 python = "^3.7"
 
 fastapi = "*"
-pydantic = "^1.10,<2.0"
-sqlalchemy = "^1.4,<2.0"
+pydantic = "*"
+sqlalchemy = "*"
 
 [tool.poetry.dev-dependencies]
 # Starlette features
